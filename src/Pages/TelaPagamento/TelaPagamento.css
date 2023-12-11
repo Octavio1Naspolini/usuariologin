@@ -1,0 +1,80 @@
+/* Estilos básicos para a tela de pagamento */
+
+/* Resetando estilos padrão do body */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container principal para o layout da tela de pagamento */
+  .container {
+    display: flex;
+    flex-direction: column; /* Define a disposição dos elementos em coluna */
+    max-width: 600px;
+    margin: 20px auto; /* Espaçamento da margem superior reduzido para centralizar o container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Espaço visual abaixo do título "Resumo do Pedido" */
+  .espaco-de-texto {
+    margin-bottom: 15px; /* Adiciona um espaçamento abaixo do título "Resumo do Pedido" */
+  }
+  
+  /* Estilo para o título "Resumo do Pedido" */
+  h2 {
+    color: gold; /* Define a cor do texto como ouro */
+    margin: 0; /* Remove as margens padrão do título */
+  }
+  
+  /* Estilo para a tabela de resumo do pedido */
+  .resumo-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px; /* Adiciona um espaçamento acima da tabela */
+    margin-bottom: 5px; /* Adiciona um espaçamento abaixo da tabela */
+  }
+  
+  .resumo-tabela th,
+  .resumo-tabela td {
+    border: 1px solid gold; /* Adiciona uma borda dourada de 1px */
+    padding: 8px; /* Adiciona um espaçamento interno de 8px nas células */
+    text-align: center; /* Alinha o texto centraliza nas células */
+  }
+  
+  /* Estilo para o QRCode */
+  .qr-code {
+    margin-top: 10px; /* Adiciona um espaçamento acima do QRCode */
+    margin-right: -900px; /* Move o QRCode para a esquerda, fora do container (ajuste conforme necessário) */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao QRCode */
+    width: 70px;
+    height: 70px;
+    
+  }
+  
+  /* Estilo para o parágrafo do QRCode */
+  p {
+    color: gold; /* Define a cor do texto como ouro */
+    margin-top: -45px; /* Move o parágrafo para cima (ajuste conforme necessário) */
+    margin-right: -900px; /* Move o parágrafo para a esquerda, fora do container (ajuste conforme necessário) */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    background-color: #ffcc00; /* Cor de fundo do botão */
+    color: #000; /* Cor do texto do botão */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse sobre o botão */
+    margin-right: 20px; /* Adiciona um espaçamento à direita do botão */
+  }
+  
+  /* Efeito de hover (ao passar o cursor) para os botões */
+  button:hover {
+    background-color: gold; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+  }

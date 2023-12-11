@@ -1,0 +1,16 @@
+/* Estilo do botão padrão */
+button {
+  background-color: rgb(241, 234, 234); /* Cor de fundo */
+  color: #000; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno (10px acima/abaixo, 20px à esquerda/direita) */
+  border: none; /* Remove a borda padrão */
+  border-radius: 4px; /* Borda arredondada */
+  cursor: pointer; /* Cursor tipo ponteiro ao passar por cima, indicando interatividade */
+  margin-right: 20px; /* Margem à direita para espaçamento entre botões */
+}
+
+/* Estilo do botão ao passar o mouse por cima */
+button:hover {
+  background-color: gold; /* Altera a cor de fundo para ouro ao passar o mouse por cima */
+}
+  
