@@ -1,34 +1,28 @@
 'use strict';
 
 import React from 'react';
-import ItemTabelaEndereco from '../../Models/Address';
+import Address from '../../Models/Address';
 
-// Propriedades esperadas para o componente ItemTabelaResumo
 interface ItemTabelaEnderecoProps {
-  item: ItemTabelaEndereco;  // Objeto representando um item do resumo de pagamento
-    // Índice do item na lista
+  item: Address;
 }
 
-// Componente funcional ItemTabelaResumo
 const ItemTabelaEndereco: React.FC<ItemTabelaEnderecoProps> = ({ item }) => {
   return (
-    // Linha da tabela representando um item
     <tr>
       
-      {/* Coluna com a descrição do item */}
-      <td>{item.rua}</td>
+      <th>{item.rua}</th>
 
-      <td>{item.numero}</td>
+      <th>{item.numero}</th>
 
-      <td>{item.bairro}</td>
+      <th>{item.bairro}</th>
 
-      <td>{item.cep}</td>
+      <th>{item.cep}</th>
 
-      <td>{item.cidade}</td>
+      <th>{item.cidade}</th>
   
     </tr>
   );
 };
 
-// Exporta o componente ItemTabelaResumo
 export default ItemTabelaEndereco;
