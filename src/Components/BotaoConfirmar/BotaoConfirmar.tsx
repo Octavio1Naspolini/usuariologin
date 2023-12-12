@@ -15,4 +15,3 @@ interface BotaoConfirmarProps {
   };
   
   export default BotaoConfirmar;
- 
