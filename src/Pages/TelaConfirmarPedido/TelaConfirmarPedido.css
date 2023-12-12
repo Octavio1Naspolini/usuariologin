@@ -36,12 +36,12 @@ body {
 h1 {
     font-size: 1.2em;
     line-height: 1.1;
-    transform: translate(108%, -478%);
+    transform: translate(60%, -478%);
     color: gold;
 }
 
 h2 {
-    transform: translate(-84%, -512%);
+    transform: translate(-44%, -512%);
     color: gold;
 }
 
@@ -67,6 +67,29 @@ ul {
     height: 2px;
     transform: translate(114%, 62%);
 }
+
+table, th, td {
+    border: 0px solid black;
+    color: #000000;
+    border-collapse: collapse;
+    border-style: inset;
+    font-family: Calibri;
+}
+
+.resumo-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    transform: translate(60%, -344%);
+  }
+  
+  .resumo-tabela th,
+  .resumo-tabela td {
+    border: 1px solid gold;
+    padding: 8px;
+    text-align: center;
+  }
 
 .product-display img {
     margin-top: 0%;
